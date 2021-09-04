@@ -1,0 +1,139 @@
+@media (max-width: 576px) {
+   .container {
+     max-width: 400px;
+   }
+   header {
+     margin-bottom: 0;
+ 
+     .welcome_page {
+       margin-top: 0;
+    }
+   }
+   .navbar {
+     font-size: var(--font-big);
+     margin: 0.5rem 0;
+     position: sticky;
+     top: 0;
+ 
+     ul {
+       position: fixed;
+       top: 1rem;
+       width: 50%;
+       display: block;
+       font-size: var(--font-small);
+       display: none;
+       transition: display 0.5s;
+       background: var(--light);
+ 
+       li {
+         margin: 2rem 0;
+       }
+     }
+ 
+     ul.open_and_close {
+       display: block;
+     }
+   }
+   .menu {
+     opacity: 1;
+   }
+   .info_about_me {
+     margin-left: 1rem;
+   }
+ 
+   .about_image {
+     display: none;
+   }
+ //welcome page
+ 
+   //services
+   .service {
+     h1,
+     h5 {
+       margin-left: 1rem;
+     }
+   }
+   .service_flex {
+     flex-direction: column;
+ 
+     .flex-item {
+       background: var(--background);
+       margin: 1px;
+     }
+   }
+ 
+   //PROJECT
+   .grid {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 25% 25% 25% 25 15%;
+    grid-gap: .5rem;
+ 
+    h4 {
+       font-size: .5em;
+    }
+  }
+ }
+ 
+ @media (max-width: 768px) {
+   .container {
+     max-width: 600px;
+   }
+   header {
+     margin-bottom: 0;
+   }
+   .navbar {
+     font-size: var(--font-big);
+     margin: 0.5rem 0;
+ 
+     ul {
+       position: fixed;
+       top: 1rem;
+       width: 50%;
+       display: block;
+       font-size: var(--font-small);
+       display: none;
+       transition: display 0.5s;
+       background: var(--light);
+       border-radius: 1rem;
+ 
+       li {
+         margin: 2rem 0;
+       }
+     }
+ 
+     ul.open_and_close {
+       display: block;
+     }
+     .menu {
+       opacity: 1;
+     }
+     .plane-logo {
+       opacity: 0;
+     }
+   }
+   //Welcom page
+   .info_about_me {
+      margin-top: 5rem;
+   }
+   
+   .about_image {
+     display: none;
+   }
+   //services
+   .service {
+     h1,
+     h5 {
+       margin-left: 1rem;
+     }
+   }
+   .service_flex {
+     flex-direction: column;
+ 
+     .flex-item {
+       background: var(--background);
+       margin: 1px;
+     }
+   }
+ }
+ 
