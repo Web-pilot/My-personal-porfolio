@@ -13,7 +13,7 @@ const ContactMe = () => {
          <h5><FaPhone /><span>+2348158099730</span></h5>
          <h5><FaEnvelope /><span>ochagwupaul295@gmaail.com</span></h5>
          </div>
-        <form>
+        <form data-netlify="true">
           <h1>Leave A message</h1>
           <textarea
             name="text"
@@ -21,7 +21,7 @@ const ContactMe = () => {
             placeholder="Send me some message"
             className="text-area"
           ></textarea>
-          <input type="text" placeholder="Your Name" />
+          <input type="text" placeholder="You're Name" />
           <input type="email" placeholder="example@gmail.com" />
           <input type="submit" value="SEND MESSAGE" className="btn-primary" />
         </form>
