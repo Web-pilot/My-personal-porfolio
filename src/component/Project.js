@@ -12,49 +12,49 @@ const Project = () => {
          <div className="grid">
             <div className="grid_large">
               <div className="content">
-               <h1>
+               <div>
                   <h4>Shopping Cart</h4>
-               </h1>
+               </div>
                  <img src={large} alt="" />
               </div>
             </div>
             <div className="grid_top_right">
             <div className="content">
-               <h1>
+               <div>
                   <h4>Designer</h4>
-               </h1>
+               </div>
                  <img src={image} alt="" />
               </div>
             </div>
             <div className="grid_small_middle_left">
             <div className="content">
-               <h1>
+               <div>
                   <h4>Designer</h4>
-               </h1>
+               </div>
                  <img src={image} alt="" />
               </div>
             </div>
             <div className="grid_small_middle_right">
             <div className="content">
-               <h1>
+               <div>
                   <h4>Designer</h4>
-               </h1>
+               </div>
                  <img src={image} alt="" />
               </div>
             </div>
             <div className="grid_small_bottom_left">
             <div className="content">
-               <h1>
+               <div>
                   <h4>Designer</h4>
-               </h1>
+               </div>
                  <img src={image} alt="" />
               </div>
             </div>
             <div className="grid_small_bottom_right">
             <div className="content">
-               <h1>
+               <div>
                   <h4>Designer</h4>
-               </h1>
+               </div>
                  <img src={image} alt="" />
               </div>
             </div>
